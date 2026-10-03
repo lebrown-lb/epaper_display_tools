@@ -58,7 +58,6 @@ def connect_to_esp32(data_to_send, ip, port):
         finally:
             print("Socket closed.\n")
 
-
 def get_closest_color(pixel: np.ndarray, palette: np.ndarray) -> np.ndarray:
     """Finds the closest palette color to a pixel using Euclidean distance."""
     # Calculate the straight-line distance to all palette colors across R, G, B channels
