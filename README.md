@@ -1,6 +1,6 @@
 # epaper_display_tools
 ***
-Project contains script to dither an image using Floyd-Steinberg error diffusion and a simple tcp client script to send commands to the esp32 interfacing with the spectra 6 color display. The Firmware for the ESP32S3 can be found bellow. 
+Project contains a script to dither an image using Floyd-Steinberg error diffusion and a simple tcp client script to send commands to the esp32 interfacing with the spectra 6 color display. The Firmware for the ESP32S3 can be found bellow. 
 
 Check out the [epaper_display_firmware Repository](https://github.com/lebrown-lb/epaper_display_firmware) for more details.
 
